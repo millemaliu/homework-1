@@ -36,7 +36,11 @@
                     <includes>
                         <include>
                             part2.ProblemsTest
+                        </include>
+                        <include>
                             part3.InventoryTest
+                        </include>
+                        <include>
                             part3.GuitarTest
                         </include>
                     </includes>
