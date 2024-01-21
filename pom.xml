@@ -35,7 +35,9 @@
                 <configuration>
                     <includes>
                         <include>
-                            org.example.MainTest
+                            part2.ProblemsTest
+                            part3.InventoryTest
+                            part3.GuitarTest
                         </include>
                     </includes>
                     <excludes>
@@ -58,6 +60,12 @@
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
             <version>5.8.1</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.1</version>
             <scope>test</scope>
         </dependency>
         <dependency>
