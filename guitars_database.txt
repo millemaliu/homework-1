@@ -1,0 +1,3 @@
+2394310,60.99,Gibbons,Trigger,Medium,Black,Red
+98491204,49.0,Gibbon,Rust,Large,Brown,Blue
+98491704,59.0,Gibbon,Patience,Small,Gold,Cream
