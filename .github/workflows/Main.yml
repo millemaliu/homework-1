@@ -37,5 +37,5 @@ jobs:
       - name: Build and push the image
         run: |
           docker login --username millemaliu --password ${{secrets.ACCESS_TOKEN}} ghcr.io
-          docker build -t ghcr.io/millemaliu/lab6:latest --file Dockerfile .  
-          docker push ghcr.io/millemaliu/lab6:latest 
+          docker build -t ghcr.io/millemaliu/guitar-inventory:latest --file Dockerfile .  
+          docker push ghcr.io/millemaliu/guitar-inventory:latest 
