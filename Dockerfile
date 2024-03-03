@@ -1,4 +1,4 @@
 FROM eclipse-temurin:17
 WORKDIR /home
-COPY ./target/lab6-0.0.1.jar lab6.jar
+COPY ./target/junitsample-1.0-SNAPSHOT.jar guitar-inventory.jar
 ENTRYPOINT ["java", "-jar", "lab6.jar"]
